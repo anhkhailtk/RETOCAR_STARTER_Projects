@@ -11,4 +11,3 @@ void loop()
   Serial.println("Thank you!");
   delay(1000);
 }
-//toi dang hoc code 1
