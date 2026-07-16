@@ -7,7 +7,7 @@ const int sensorRightPin = 16;  // Cảm biến phải
 const int motorPinPWM_A = 25;   const int motorPinHuong_A = 26;
 const int motorPinPWM_B = 32;   const int motorPinHuong_B = 33;
 
-const int tocDoChay = 150;      const int tocDoRe = 200;
+const int tocDoChay = 150;      const int tocDoRe = 150;
 const int left_led_pin = 2;     // Chân LED trái (GPIO 2)
 const int right_led_pin = 4;    // Chân LED phải (GPIO 4)
 unsigned long previousMillis = 0; // Biến lưu thời gian trước đó
