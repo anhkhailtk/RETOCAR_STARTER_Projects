@@ -10,7 +10,7 @@ const int motorPinPWM_B = 32;   // PWM tốc độ động cơ B
 const int motorPinHuong_B = 33; // Điều khiển hướng động cơ B
 
 const int tocDoChay = 150; // Tốc độ đi thẳng
-const int tocDoRe = 200;   // Tốc độ rẽ
+const int tocDoRe = 150;   // Tốc độ rẽ
 
 enum RobotState {
   ON_TRACK,    // Đang ở giữa vạch
