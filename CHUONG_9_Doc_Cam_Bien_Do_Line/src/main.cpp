@@ -42,5 +42,5 @@ void loop()
   {
     Serial.println("Robot đang lạc đường.");
   }
-  delay(100);
+  delay(1000);
 }

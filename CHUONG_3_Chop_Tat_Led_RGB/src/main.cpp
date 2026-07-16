@@ -16,11 +16,11 @@ void loop()
 {
   digitalWrite(pinB, LOW); // SẴN SÀNG (Hiện màu Xanh lá)
   delay(1000);
-  // digitalWrite(pinG, HIGH); // Tắt xanh lá
-  // digitalWrite(pinR, LOW); // NGUY HIỂM (Hiện màu Đỏ)
-  // delay(2000);
-  // digitalWrite(pinR, HIGH); // Tắt đỏ
-  // digitalWrite(pinB, LOW); // ĐANG SUY NGHĨ (Hiện màu Xanh dương)
-  // delay(3000);
-  // digitalWrite(pinB, HIGH); / / Tắt xanh dương
+  digitalWrite(pinG, HIGH); // Tắt xanh lá
+  digitalWrite(pinR, LOW); // NGUY HIỂM (Hiện màu Đỏ)
+  delay(2000);
+  digitalWrite(pinR, HIGH); // Tắt đỏ
+  digitalWrite(pinB, LOW); // ĐANG SUY NGHĨ (Hiện màu Xanh dương)
+  delay(3000);
+  digitalWrite(pinB, HIGH); // Tắt xanh dương
 }

@@ -1,7 +1,7 @@
 #include <Arduino.h>
-int redPin = 13;   // Biến toàn cục gán chân GPIO cho màu đỏ
+int redPin = 27;   // Biến toàn cục gán chân GPIO cho màu đỏ
 int greenPin = 14; // Biến toàn cục gán chân GPIO cho màu xanh lá
-int bluePin = 27;  // Biến toàn cục gán chân GPIO cho màu xanh dương
+int bluePin = 13;  // Biến toàn cục gán chân GPIO cho màu xanh dương
 void phaMau(uint8_t do_, uint8_t xanhLa, uint8_t xanhDuong)
 {
   // Thiết lập giá trị PWM cho từng màu

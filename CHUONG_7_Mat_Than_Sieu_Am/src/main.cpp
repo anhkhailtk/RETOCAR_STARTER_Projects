@@ -39,11 +39,15 @@ void loop()
     {
       digitalWrite(redPin, LOW);
       digitalWrite(greenPin, HIGH);
+      Serial.print("Khoang cach be: ");
+      Serial.println(kc);
     }
     else
     {
       digitalWrite(redPin, HIGH);
       digitalWrite(greenPin, LOW);
+      Serial.print("Khoang cach lon: ");
+      Serial.println(kc);
     }
   }
 }

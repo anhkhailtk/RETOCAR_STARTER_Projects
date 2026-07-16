@@ -61,7 +61,7 @@ void loop()
   delay(2000);  // Rẽ trong 2 giây
   chay(160, 3); // Quay đầu (U-turn) với tốc độ tối đa
   dung();       // Dừng lại
-  delay(2000);  // Dừng trong 2 giây
+  delay(10000);  // Dừng trong 2 giây
 }
 
 
