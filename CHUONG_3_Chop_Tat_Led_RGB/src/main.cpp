@@ -1,7 +1,7 @@
 #include <Arduino.h>
-int pinR = 13; // Chân Đỏ
+int pinR = 27; // Chân Đỏ
 int pinG = 14; // Chân Xanh lá
-int pinB = 27; // Chân Xanh dương
+int pinB = 13; // Chân Xanh dương
 void setup()
 {
   pinMode(pinR, OUTPUT);
@@ -14,13 +14,13 @@ void setup()
 }
 void loop()
 {
-  digitalWrite(pinG, LOW); // SẴN SÀNG (Hiện màu Xanh lá)
+  digitalWrite(pinB, LOW); // SẴN SÀNG (Hiện màu Xanh lá)
   delay(1000);
-  digitalWrite(pinG, HIGH); // Tắt xanh lá
-  digitalWrite(pinR, LOW); // NGUY HIỂM (Hiện màu Đỏ)
-  delay(2000);
-  digitalWrite(pinR, HIGH); // Tắt đỏ
-  digitalWrite(pinB, LOW); // ĐANG SUY NGHĨ (Hiện màu Xanh dương)
-  delay(3000);
-  digitalWrite(pinB, HIGH); // Tắt xanh dương
+  // digitalWrite(pinG, HIGH); // Tắt xanh lá
+  // digitalWrite(pinR, LOW); // NGUY HIỂM (Hiện màu Đỏ)
+  // delay(2000);
+  // digitalWrite(pinR, HIGH); // Tắt đỏ
+  // digitalWrite(pinB, LOW); // ĐANG SUY NGHĨ (Hiện màu Xanh dương)
+  // delay(3000);
+  // digitalWrite(pinB, HIGH); / / Tắt xanh dương
 }

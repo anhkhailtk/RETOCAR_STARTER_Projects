@@ -1,9 +1,9 @@
 #include <Arduino.h> // Thư viện chính cho lập trình Arduino
 
 int ldrPin = 36; // GPIO 36 cho LDR
-int redPin = 13; // GPIO 13 cho Red LED
+int redPin = 27; // GPIO 13 cho Red LED
 int greenPin = 14; // GPIO 14 cho Green LED
-int bluePin = 27; // GPIO 27 cho Blue LED
+int bluePin = 13; // GPIO 27 cho Blue LED
 int lightThreshold = 2000; // Ngưỡng ánh sáng để bật/tắt đèn
 
 void setup() {
